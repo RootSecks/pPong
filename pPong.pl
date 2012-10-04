@@ -80,8 +80,7 @@ our $playertworect = SDL::Rect->new(
 );
 
 our $scorefont = SDL::TTFont->new(
-    -name   => 
-"/usr/share/fonts/truetype/ttf-droid/DroidSerif-Regular.ttf",
+    -name   => "/usr/share/fonts/truetype/freefont/FreeMono.ttf",
     -size   => 18,
     -bg     => $bg_color,
     -fg     => $color,
